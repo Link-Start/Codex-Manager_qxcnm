@@ -209,13 +209,23 @@ If this project has helped you, donations are welcome!
 
 ## Screenshots
 
-![Dashboard](../../assets/images/dashboard.png)
-![Account Management](../../assets/images/accounts.png)
-![Platform Key](../../assets/images/platform-key.png)
-![Aggregate API](../../assets/images/aggregate-api.png)
+![Dashboard](../../assets/images/dashboard%20.png)
+
+![OpenAI Account Pool (List View)](../../assets/images/accounts.png)
+
+![OpenAI Account Pool (Card View)](../../assets/images/accounts2.png)
+
+![Aggregate API](../../assets/images/aggregate-api%20.png)
+
+![Platform Keys](../../assets/images/platform-key%20.png)
+
+![Models and Routing](../../assets/images/models.png)
+
+![Request Logs](../../assets/images/log.png)
+
+![System Settings](../../assets/images/setting.png)
+
 ![Plugin Center](../../assets/images/plug.png)
-![Log View](../../assets/images/log.png)
-![Settings](../../assets/images/themes.png)
 
 ## Quick Start
 

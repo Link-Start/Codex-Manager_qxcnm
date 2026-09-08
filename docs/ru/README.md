@@ -209,13 +209,23 @@ PatewayAI специализируется на высококачественн
 
 ## Скриншоты
 
-![Панель](../../assets/images/dashboard.png)
-![Аккаунты](../../assets/images/accounts.png)
-![Platform Key](../../assets/images/platform-key.png)
-![Aggregate API](../../assets/images/aggregate-api.png)
+![Панель](../../assets/images/dashboard%20.png)
+
+![Пул аккаунтов OpenAI (список)](../../assets/images/accounts.png)
+
+![Пул аккаунтов OpenAI (карточки)](../../assets/images/accounts2.png)
+
+![Агрегация API](../../assets/images/aggregate-api%20.png)
+
+![Ключи платформы](../../assets/images/platform-key%20.png)
+
+![Модели и маршрутизация](../../assets/images/models.png)
+
+![Журнал запросов](../../assets/images/log.png)
+
+![Системные настройки](../../assets/images/setting.png)
+
 ![Центр плагинов](../../assets/images/plug.png)
-![Логи](../../assets/images/log.png)
-![Настройки](../../assets/images/themes.png)
 
 ## Быстрый старт
 

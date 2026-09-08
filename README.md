@@ -219,13 +219,24 @@ PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Code
 - 图片生成：默认按官方 Codex 行为为 `/v1/responses` 自动注入 `image_generation` tool，并支持显式 tool 透传、`/v1/images/generations` 与 `/v1/images/edits` 兼容入口，默认图片工具模型为 `gpt-image-2`
 
 ## 截图
-![仪表盘](assets/images/dashboard.png)
-![账号管理](assets/images/accounts.png)
-![平台 Key](assets/images/platform-key.png)
-![聚合 API](assets/images/aggregate-api.png)
+
+![仪表盘](assets/images/dashboard%20.png)
+
+![OpenAI 账号池（列表视图）](assets/images/accounts.png)
+
+![OpenAI 账号池（卡片视图）](assets/images/accounts2.png)
+
+![聚合 API](assets/images/aggregate-api%20.png)
+
+![平台密钥](assets/images/platform-key%20.png)
+
+![模型与路由](assets/images/models.png)
+
+![请求日志](assets/images/log.png)
+
+![系统设置](assets/images/setting.png)
+
 ![插件中心](assets/images/plug.png)
-![日志视图](assets/images/log.png)
-![设置页](assets/images/themes.png)
 
 ## 快速开始
 1. 启动桌面端，点击“启动服务”。

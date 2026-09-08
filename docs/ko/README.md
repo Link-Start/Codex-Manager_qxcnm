@@ -209,13 +209,23 @@ PatewayAI는 공식 고품질 모델 API 중계에 집중하며 Claude와 Codex 
 
 ## 스크린샷
 
-![대시보드](../../assets/images/dashboard.png)
-![계정 관리](../../assets/images/accounts.png)
-![플랫폼 Key](../../assets/images/platform-key.png)
-![집계 API](../../assets/images/aggregate-api.png)
+![대시보드](../../assets/images/dashboard%20.png)
+
+![OpenAI 계정 풀 (목록 보기)](../../assets/images/accounts.png)
+
+![OpenAI 계정 풀 (카드 보기)](../../assets/images/accounts2.png)
+
+![집계 API](../../assets/images/aggregate-api%20.png)
+
+![플랫폼 키](../../assets/images/platform-key%20.png)
+
+![모델 및 라우팅](../../assets/images/models.png)
+
+![요청 로그](../../assets/images/log.png)
+
+![시스템 설정](../../assets/images/setting.png)
+
 ![플러그인 센터](../../assets/images/plug.png)
-![로그](../../assets/images/log.png)
-![설정](../../assets/images/themes.png)
 
 ## 빠른 시작
 
