@@ -24,6 +24,7 @@ pub(crate) mod proxy;
 pub(crate) mod proxy_health;
 #[path = "proxy_testing/mod.rs"]
 pub(crate) mod proxy_testing;
+pub(crate) mod reset_warmup_settings;
 #[path = "account_status.rs"]
 pub(crate) mod status;
 #[path = "account_test.rs"]

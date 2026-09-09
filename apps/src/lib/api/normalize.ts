@@ -463,6 +463,8 @@ export function normalizeAccount(item: unknown, usage?: AccountUsage | null): Ac
     group: groupName,
     priority: asInteger(source.sort ?? source.priority, 0, 0),
     preferred: Boolean(source.preferred),
+    resetWarmupEnabled:
+      (source.resetWarmupEnabled ?? source.reset_warmup_enabled) !== false,
     label: name,
     groupName,
     sort: asInteger(source.sort ?? source.priority, 0, 0),

@@ -1,4 +1,6 @@
 use super::*;
+#[path = "account_reset_warmup_rpc_tests.rs"]
+mod account_reset_warmup_rpc_tests;
 use codexmanager_core::rpc::types::{
     JsonRpcMessage, JsonRpcResponse, ModelGroupModelUpsertParams, ModelGroupModelsSetParams,
     ModelGroupUsersSetParams,

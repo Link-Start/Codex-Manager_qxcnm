@@ -5,6 +5,10 @@ It follows Keep a Changelog with a lightweight adaptation for this repository.
 
 ## [Unreleased]
 
+### Added
+
+- Added quota reset warmup for OpenAI accounts, enabled by default. Exhausted 5-hour windows trigger a short message at their recorded reset time, followed by a usage refresh. Per-account and bulk switches are persisted, attempts are deduplicated across restarts, and disabled accounts or exhausted weekly quotas are skipped.
+
 ## [0.6.0] - 2026-09-05
 
 ### Fixed

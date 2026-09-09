@@ -39,6 +39,7 @@ use crate::usage_token_refresh::{refresh_and_persist_access_token, token_refresh
 mod batch;
 mod errors;
 mod queue;
+mod reset_warmup;
 mod runner;
 mod settings;
 
@@ -46,6 +47,7 @@ static USAGE_POLLING_STARTED: OnceLock<()> = OnceLock::new();
 static GATEWAY_KEEPALIVE_STARTED: OnceLock<()> = OnceLock::new();
 static TOKEN_REFRESH_POLLING_STARTED: OnceLock<()> = OnceLock::new();
 static WARMUP_CRON_STARTED: OnceLock<()> = OnceLock::new();
+static RESET_WARMUP_STARTED: OnceLock<()> = OnceLock::new();
 static WARMUP_CRON_SIGNAL: OnceLock<(Mutex<u64>, Condvar)> = OnceLock::new();
 static BACKGROUND_TASKS_CONFIG_LOADED: OnceLock<()> = OnceLock::new();
 static USAGE_POLL_CURSOR: AtomicUsize = AtomicUsize::new(0);
@@ -298,6 +300,12 @@ pub(crate) fn ensure_warmup_cron() {
     ensure_background_tasks_config_loaded();
     WARMUP_CRON_STARTED.get_or_init(|| {
         spawn_background_loop("account-warmup-cron", warmup_cron_loop);
+    });
+}
+
+pub(crate) fn ensure_reset_warmup() {
+    RESET_WARMUP_STARTED.get_or_init(|| {
+        spawn_background_loop("account-reset-warmup", reset_warmup::reset_warmup_loop);
     });
 }
 

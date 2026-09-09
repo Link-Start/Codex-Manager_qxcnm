@@ -8,6 +8,7 @@ use std::time::{SystemTime, UNIX_EPOCH};
 mod account_manager;
 mod account_metadata;
 mod account_proxy_settings;
+mod account_reset_warmups;
 mod account_subscriptions;
 mod accounts;
 mod accounts_sql;
@@ -38,6 +39,7 @@ mod settings;
 mod tokens;
 mod usage;
 
+pub use account_reset_warmups::AccountResetWarmupTarget;
 pub use model_billing_v2::{
     ChargeComputationV2, ChargeSnapshotInputV2, ChargeSnapshotV2, ModelPriceTierV2,
 };
@@ -2284,6 +2286,10 @@ impl Storage {
             "133_aggregate_api_user_agent",
             include_str!("../../migrations/133_aggregate_api_user_agent.sql"),
             |s| s.ensure_aggregate_apis_table(),
+        )?;
+        self.apply_sql_migration(
+            "134_account_reset_warmups",
+            include_str!("../../migrations/134_account_reset_warmups.sql"),
         )?;
         self.ensure_api_key_rotation_columns()?;
         self.ensure_api_key_account_group_filter_column()?;

@@ -85,6 +85,12 @@ async function loadTransportWebCommandsModule() {
 const transportWebCommands = await loadTransportWebCommandsModule();
 const commandMap = transportWebCommands.createWebCommandMap(async () => ({}));
 
+test("quota reset warmup uses a dedicated batch setting RPC", () => {
+  assert.deepEqual(commandMap.service_account_reset_warmup_update, {
+    rpcMethod: "account/resetWarmup/update",
+  });
+});
+
 test("createWebCommandMap keeps app and gateway transport settings payloads aligned", () => {
   const appSettingsSet = commandMap.app_settings_set;
   assert.equal(appSettingsSet.rpcMethod, "appSettings/set");
