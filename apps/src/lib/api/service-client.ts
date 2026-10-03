@@ -17,6 +17,7 @@ import {
 import {
   normalizeAppSettings,
   normalizeBackgroundTasks,
+  normalizeRequestLogDetail,
   normalizeRequestLogFilterSummary,
   normalizeRequestLogListResult,
   normalizeRequestLogListWithSummaryResult,
@@ -25,6 +26,8 @@ import {
 } from "./normalize";
 import {
   BackgroundTaskSettings,
+  RequestLogDetail,
+  RequestLogDetailStage,
   RequestLogFilterSummary,
   RequestLogListResult,
   RequestLogListWithSummaryResult,
@@ -172,6 +175,21 @@ export const serviceClient = {
       options
     );
     return normalizeRequestLogListWithSummaryResult(result);
+  },
+  async requestLogDetail(
+    params: { traceId: string; stage?: RequestLogDetailStage | null; addr?: string | null },
+    options?: RequestOptions,
+  ): Promise<RequestLogDetail> {
+    const result = await invoke<unknown>(
+      "service_requestlog_detail",
+      withAddr({
+        traceId: params.traceId,
+        ...(params.stage ? { stage: params.stage } : {}),
+        ...(params.addr === undefined ? {} : { addr: params.addr || null }),
+      }),
+      options
+    );
+    return normalizeRequestLogDetail(result);
   },
   async getRequestLogSummary(params?: {
     query?: string;
