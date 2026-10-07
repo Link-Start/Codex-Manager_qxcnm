@@ -87,33 +87,6 @@ PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Code
 <table>
   <tr>
     <td align="center" valign="middle" width="180">
-      <a href="https://vmcardio.com/zh/register?code=OPK6X2DSLW">
-        <img src="assets/images/sponsors/vmcard.jpg" alt="VMCard" width="120" />
-      </a>
-    </td>
-    <td valign="top">
-      <strong><a href="https://vmcardio.com/zh/register?code=OPK6X2DSLW">VMCard 企业级虚拟卡发卡平台</a></strong>，面向 AI 账号平台、AI API 服务商及规模化订阅团队，提供专属美国 Visa 卡段、API 批量发卡及企业级用卡管理。<br />
-      全网最低结算汇率，满足企业长期、规模化支付需求。商务合作：<a href="https://t.me/Vmcardio_yuki">@Vmcardio_yuki</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="180">
-      <a href="https://88api.ai/sign-up?aff=OceE">
-        <img src="assets/images/sponsors/88api.png" alt="88API" width="120" />
-      </a>
-    </td>
-    <td valign="top">
-      <strong><a href="https://88api.ai/sign-up?aff=OceE">88API 全模型聚合平台</a></strong><br />
-      🧠 聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等语言与编程模型；<br />
-      🎨 图片模型：GPT-Image、Gemini、Grok 等；<br />
-      🎬 视频模型：Seedance、Veo、MiniMax Hailuo H3、Kling、Grok 等；<br />
-      🎙️ 语音能力：Whisper、TTS 等。从文案、出图、改图，到视频生成与配音。<br />
-      🎁 新用户注册送体验额度，可以检测模型能力。站内有人工客服值守！<br />
-      👉 海外企业资质运营，稳定不跑路，提供正规发票，充值比例 1:1。
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="180">
       <a href="https://api.fenno.ai/s/4ADZ">
         <img src="assets/images/sponsors/fennoai.jpg" alt="FennoAI" width="120" />
       </a>
