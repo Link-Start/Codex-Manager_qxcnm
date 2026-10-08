@@ -74,6 +74,14 @@ This project is open to sponsorship partnerships, with pricing negotiable. Spons
 
 Thanks to the following friends and partners for supporting CodexManager.
 
+[![PatewayAI official high-quality model API relay service](../../assets/images/sponsors/patewayai-banner-en-4k.png)](https://pateway.ai/?ch=kimnmd)
+
+Thanks to <strong>PatewayAI</strong> for sponsoring this project!
+
+PatewayAI focuses on high-quality official model API relay services, with full support for Claude and Codex series models, transparent billing, and enterprise-grade service.
+
+Economy mode starts as low as 5% of standard rates. <a href="https://pateway.ai/?ch=kimnmd" rel="sponsored nofollow">Register through this link</a> to receive trial credits, join occasional promotions for free credits, and earn up to $150 in two-way referral rewards.
+
 ---
 
 <table>
