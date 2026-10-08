@@ -74,14 +74,6 @@
 
 CodexManager를 지원해 주신 모든 분과 파트너께 감사드립니다.
 
-[![PatewayAI 공식 고품질 모델 API 중계 서비스](../../assets/images/sponsors/patewayai-banner-en-4k.png)](https://pateway.ai/?ch=kimnmd)
-
-이 프로젝트를 후원해 주신 <strong>PatewayAI</strong>에 감사드립니다!
-
-PatewayAI는 공식 고품질 모델 API 중계에 집중하며 Claude와 Codex 시리즈를 완전히 지원하고, 투명한 과금과 엔터프라이즈급 서비스를 제공합니다.
-
-경제 모드는 표준 요금의 5%부터 시작합니다. <a href="https://pateway.ai/?ch=kimnmd" rel="sponsored nofollow">이 링크</a>로 가입하면 체험 크레딧과 비정기 무료 크레딧 이벤트에 참여할 수 있으며, 양방향 추천 보상은 최대 150달러입니다.
-
 ---
 
 <table>

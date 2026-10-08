@@ -74,14 +74,6 @@
 
 感谢以下朋友与伙伴对 CodexManager 的支持。
 
-[![PatewayAI 官方高质量模型 API 中继服务](assets/images/sponsors/patewayai-banner-cn-4k.png)](https://pateway.ai/?ch=kimnmd)
-
-感谢 <strong>PatewayAI</strong> 对本项目的赞助！
-
-PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Codex 系列，并提供透明计费与企业级服务。
-
-经济模式低至 0.5 折！通过<a href="https://pateway.ai/?ch=kimnmd" rel="sponsored nofollow">此链接</a>注册可获试用额度，还可参与不定时活动领取免费额度，双向推荐奖励最高达 150 美元。
-
 ---
 
 <table>
