@@ -87,6 +87,18 @@ PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Code
 <table>
   <tr>
     <td align="center" valign="middle" width="180">
+      <a href="https://sidrune.ai/register?source=github&campaign=codexmanger&promo=codexmanger">
+        <img src="assets/images/sponsors/sidrune.png" alt="Sidrune AI" width="120" />
+      </a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://sidrune.ai/register?source=github&campaign=codexmanger&promo=codexmanger">Sidrune AI｜一个入口，接入并管理全球主流AI模型</a></strong><br />
+      Sidrune AI 面向个人开发者、技术团队与企业，通过统一 API 接入并管理全球主流 AI 模型；通过多线路动态调度提升可用性，模型表现、响应时间与费用透明可查。根据不同模型与线路，API 调用成本可较官方或基准价格降低 40%—98%。<br />
+      立即<a href="https://sidrune.ai/register?source=github&campaign=codexmanger&promo=codexmanger">访问并注册</a>，即可获得 $3.88 试用额度，可直接使用。
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="180">
       <a href="https://daitouai.com/">
         <img src="assets/images/sponsors/daitouai.svg" alt="呆头 AI" width="120" />
       </a>
