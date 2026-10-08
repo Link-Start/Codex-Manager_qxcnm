@@ -92,7 +92,7 @@ PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Code
       </a>
     </td>
     <td valign="top">
-      <strong><a href="https://daitouai.com/">呆头 AI</a></strong> 专注于国内主流大模型 API，提供 GLM、Kimi、DeepSeek 等模型接入，主打比官方更实惠的价格，帮助个人开发者与团队以更低成本使用国内大模型。欢迎通过<a href="https://daitouai.com/">官网</a>了解详情。
+      <strong><a href="https://daitouai.com/">呆头 AI</a></strong> 专注于国内主流大模型 API 服务，提供 GLM、Kimi、DeepSeek 等模型的便捷接入，适用于对话问答、代码生成、内容创作和自动化开发等常见场景。平台主打比官方更实惠的价格，支持个人开发者快速试用，也适合独立项目与团队按需调用，帮助降低国内大模型的使用成本。欢迎通过<a href="https://daitouai.com/">官网</a>了解可用模型、接入方式与最新优惠。
     </td>
   </tr>
   <tr>
