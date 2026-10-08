@@ -99,6 +99,19 @@ PatewayAI 专注于官方高质量模型 API 中继，完整支持 Claude、Code
   </tr>
   <tr>
     <td align="center" valign="middle" width="180">
+      <a href="https://onesay.io">
+        <img src="assets/images/sponsors/onesay.jpg" alt="OneSay Desktop" width="120" />
+      </a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://onesay.io">Typeless 最佳平替来了！OneSay Pro 免费用 3 个月！</a></strong><br />
+      还在为打字慢、效率低而烦恼？试试 OneSay Desktop！一款让你开口就能高效工作的 AI 语音助手，集智能听写、AI 翻译、文字改写、智能问答于一体。写邮件、回消息、记录灵感，动动嘴就能搞定！<br />
+      <strong>限时福利：新用户免费体验 Pro 模式 3 个月！</strong>邀请好友注册，还能继续延长会员时长，邀请越多，免费用得越久！<br />
+      体验 Typeless 级别的语音输入效率，从 OneSay 开始！立即注册体验：<a href="https://onesay.io">https://onesay.io</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="180">
       <a href="https://daitouai.com/">
         <img src="assets/images/sponsors/daitouai.svg" alt="呆头 AI" width="120" />
       </a>
